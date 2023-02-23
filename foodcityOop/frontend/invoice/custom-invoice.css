@@ -1,0 +1,349 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f3f4;
+    font-family: sans-serif;
+}
+
+body.body-bg {
+    padding-top: 0px;
+}
+
+/* 
+.top-nav-bar {
+    height: 57px;
+    top: 0;
+    position: sticky;
+    background: #fff;
+    margin-bottom: 20px;
+    border-bottom: 3px solid black;
+    z-index: 2;
+}
+
+.logo {
+    height: 50px;
+    margin: 5px 10px;
+}
+
+.form-control {
+    margin-top: 9px;
+    margin-left: 30px;
+    border: 1px solid orange !important;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+.input-group-text {
+    background: orange;
+    border: 1px solid orange;
+    margin: 8.5px 10px 3 px 0;
+    border-top-left-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    cursor: pointer;
+} */
+
+.search-box {
+    display: inline-flex;
+    width: 60%;
+}
+
+.fa-search {
+    color: black;
+}
+
+.menu-bar {
+    width: 40%;
+    height: 57px;
+    float: right;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    float: right;
+}
+
+.menu-bar ul li {
+    border-left: 1px solid #fff;
+    list-style-type: none;
+    padding: 15px 35px;
+    text-align: center;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.menu-bar ul li a {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.fa-shopping-basket {
+    margin-right: 5px;
+}
+
+/* for responsive */
+@media only screen and (max-width:980px) {
+    .top-nav-bar {
+        height: 118px;
+        border-bottom: 0;
+
+    }
+
+    .search-box {
+        width: 100%;
+    }
+
+    .menu-bar {
+        width: 100%;
+    }
+
+    .menu-bar ul {
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    .menu-bar ul {
+        height: 57px;
+        width: 100%;
+    }
+}
+
+/* navbar end */
+
+
+
+/* footer start */
+.footer {
+    margin-top: 50px;
+    background: #000;
+    color: white;
+}
+
+.footer h1 {
+    font-size: 15px;
+    margin: 25px 0;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer img {
+    height: 100px;
+}
+
+.show img {
+    height: 350px;
+    width: 100%;
+}
+
+.copyright {
+    margin-bottom: -80px;
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+
+.fa-heart-o {
+    color: red;
+    font-size: 15px;
+}
+
+.footer hr {
+    margin-top: 10px;
+    background-color: #ccc;
+}
+
+.footer .row .fa {
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+/* footer end */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font: 400 .875rem 'Open Sans', sans-serif;
+    color: #bcd0f7;
+    background: #273862;
+    position: relative;
+    height: 100%;
+    padding: 2% 0 0;
+}
+
+
+
+
+.body-bg {
+    /* background-image: url("https://thumbnails.production.thenounproject.com/iiXWUJkC5aAEke8BHvgUV6PU4hc=/fit-in/1000x1000/photos.production.thenounproject.com/photos/4E7B6D99-7F9A-460C-93BE-0EE295A8A418.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; */
+    background-image: url("https://w0.peakpx.com/wallpaper/427/614/HD-wallpaper-bangladeshi-taka-symbol-currency-sign-bangladeshi-taka-white-3d-bangladeshi-taka-sign-white-background.jpg");
+    /* background-color: #cccccc; */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+
+}
+
+.invoice-container {
+    padding: 1rem;
+}
+
+.invoice-container .invoice-header .invoice-logo {
+    margin: 0.8rem 0 0 0;
+    display: inline-block;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #bcd0f7;
+}
+
+.invoice-container .invoice-header .invoice-logo img {
+    max-width: 130px;
+}
+
+.invoice-container .invoice-header address {
+    font-size: 0.8rem;
+    color: #8a99b5;
+    margin: 0;
+}
+
+.invoice-container .invoice-details {
+    margin: 1rem 0 0 0;
+    padding: 1rem;
+    line-height: 180%;
+    background: #1a233a;
+}
+
+.invoice-container .invoice-details .invoice-num {
+    text-align: right;
+    font-size: 0.8rem;
+}
+
+.invoice-container .invoice-body {
+    padding: 1rem 0 0 0;
+}
+
+.invoice-container .invoice-footer {
+    text-align: center;
+    font-size: 0.7rem;
+    margin: 5px 0 0 0;
+}
+
+.invoice-status {
+    text-align: center;
+    padding: 1rem;
+    background: #272e48;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.invoice-status h2.status {
+    margin: 0 0 0.8rem 0;
+}
+
+.invoice-status h5.status-title {
+    margin: 0 0 0.8rem 0;
+    color: #8a99b5;
+}
+
+.invoice-status p.status-type {
+    margin: 0.5rem 0 0 0;
+    padding: 0;
+    line-height: 150%;
+}
+
+.invoice-status i {
+    font-size: 1.5rem;
+    margin: 0 0 1rem 0;
+    display: inline-block;
+    padding: 1rem;
+    background: #1a233a;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.invoice-status .badge {
+    text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+    .invoice-container {
+        padding: 1rem;
+    }
+}
+
+.card {
+    background: #272E48;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 1rem;
+}
+
+.custom-table {
+    border: 1px solid #2b3958;
+}
+
+.custom-table thead {
+    background: #2f71c1;
+}
+
+.custom-table thead th {
+    border: 0;
+    color: #ffffff;
+}
+
+.table {
+    background: #1a243a;
+    color: #bcd0f7;
+    font-size: .75rem;
+}
+
+.text-success {
+    color: #c0d64a !important;
+}
+
+.custom-actions-btns {
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.custom-actions-btns .btn {
+    margin: .3rem 0 .3rem .3rem;
+}
